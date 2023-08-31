@@ -1,0 +1,194 @@
+/* 
+    Theme: Dental Plus
+    Author: 
+    URL: 
+
+    Primary Color: #00cce1 and #f69165
+    Secondary Color: #707070 and #ffffff
+
+    Font Style
+    Title: 'Roboto', sans-serif;
+    Paragraph: 
+*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Section Start */
+.header-info{
+    display: inline;
+}
+
+/* Navbar */
+header{
+    background-color: #fff;
+    
+}
+.contact{
+    padding: 40px 0 15px;
+}
+.info-icon{
+    margin-left: -5px;
+}
+.info{
+    padding: 0 7px;
+}
+.info h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.info p{
+    color: #707070;
+    font-size: 15px;
+}
+.navbar{
+    background: #00cce1;
+}
+.navbar .nav-link{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+}
+.navbar .nav-link:hover{
+    color: #f69165;
+}
+.navbar .nav-item{
+    padding: 0 15px;
+}
+.nav-header{
+    width: 100%;
+    background: #00cce1;
+}
+/* Header Section End */
+
+
+/* Banner Section Start */
+/* Banner Item */
+.banner-section{
+    position: relative;
+}
+.height{
+    
+}
+.bg-one{
+    background: url(../images/banner_bg.png) no-repeat center top;
+}
+.item-content{
+    padding: 200px 0 200px;
+}
+.banner-section h4{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    background-color: #00cce1;
+    width: 260px;
+    height: 43px;
+    text-align: center;
+    padding: 7px;
+}
+.banner-section h1{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #f69165;
+    width: 430px;
+    height: 46px;
+    text-align: center;
+    font-size: 35px;
+    padding: 3px 0px;
+}
+.banner-section p{
+    color: #636363;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 15px 28px 0 0;
+    padding-bottom: 18px;
+}
+.banner-section ul{
+    padding: 0;
+}
+.banner-section ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 18px 10px 0 0;
+}
+.banner-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 28px;
+    font-weight: 500;
+}
+.banner-section ul li .btn-one{
+    background: #f69165;
+    transition: all 0.4s ease-in-out;
+}
+.banner-section ul li .btn-two{
+    background: #00cce1;
+    transition: all 0.4s ease-in-out;
+}
+.banner-section ul li .btn-one:hover{
+    background: #00cce1;
+}
+.banner-section ul li .btn-two:hover{
+    background: #f69165;
+}
+
+/* Banner Image */
+.banner-section img{
+    width: 90%;
+}
+.banner-section .banner-image{
+    position: absolute;
+    left: 48%;
+    bottom: 0;
+}
+/* Banner Section End */
+
+
+/* Agency Section Start */
+.agency-section{
+    position: relative;
+    padding: 200px 0 200px;
+}
+.agency-section img {
+    position: absolute;
+    width: 40%;
+}
+.agency-section h2 {
+    color: #000000;
+    font-size: 38px;
+    font-weight: 600;
+}
+.agency-section p{
+    color: #636363;
+    font-size: 18px;
+    line-height: 30px;
+}
+.tooth-icon img{
+    height: 30px;
+    width: 30px;
+}
+.tooth h3{
+    padding: 40px 0 0px 0px;
+}
+.tooth p{
+
+}
+
+/* Agency Section End */
+
